@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\johnnybbabe.taskplanner.DataAccess.Abstractions2\johnnybbabe.taskplanner.DataAccess.Abstractions2.csproj" />
+    <ProjectReference Include="..\johnnybbabe.taskplanner.DataAccess.Abstractions\johnnybbabe.taskplanner.DataAccess.Abstractions.csproj" />
     <ProjectReference Include="..\johnnybbabe.taskplanner.Domain.Models\johnnybbabe.taskplanner.Domain.Models.csproj" />
   </ItemGroup>
 

@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\johnnybbabe.taskplanner.DataAccess.Abstractions2\johnnybbabe.taskplanner.DataAccess.Abstractions2.csproj" />
+    <ProjectReference Include="..\johnnybbabe.taskplanner.DataAccesss2\johnnybbabe.taskplanner.DataAccesss2.csproj" />
     <ProjectReference Include="..\johnnybbabe.taskplanner.Domain.Logic\johnnybbabe.taskplanner.Domain.Logic.csproj" />
     <ProjectReference Include="..\johnnybbabe.taskplanner.Domain.Models\johnnybbabe.taskplanner.Domain.Models.csproj" />
   </ItemGroup>
