@@ -19,3 +19,15 @@ namespace johnnybbabe.taskplanner.Domain.Models
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+

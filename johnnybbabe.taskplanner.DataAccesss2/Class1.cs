@@ -1,10 +1,7 @@
 ﻿using johnnybbabe.taskplanner.DataAccess.Abstractions2;
 using johnnybbabe.taskplanner.Domain.Models;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+
 namespace johnnybbabe.taskplanner.DataAccesss2
 
 {
@@ -20,7 +17,6 @@ namespace johnnybbabe.taskplanner.DataAccesss2
 
         public Guid Add(WorkItem workItem)
         {
-            // Додавання нового робочого елементу до словника
             var newId = Guid.NewGuid();
             workItem.Id = newId;
             _data.Add(newId, workItem);
@@ -58,7 +54,6 @@ namespace johnnybbabe.taskplanner.DataAccesss2
 
         public void SaveChanges()
         {
-            // Збереження всіх робочих елементів у файл
             var jsonData = JsonConvert.SerializeObject(_data.Values.ToArray(), Formatting.Indented);
             File.WriteAllText(DataFile, jsonData);
         }
@@ -67,12 +62,12 @@ namespace johnnybbabe.taskplanner.DataAccesss2
         {
             if (File.Exists(DataFile))
             {
-               // var jsonData = File.ReadAllText(DataFile);
-                //var items = JsonConvert.DeserializeObject<WorkItem[]>(jsonData);//DeserializeObject
-               //if (items != null)
+               //var jsonData = File.ReadAllText(DataFile);
+               //var items = JsonConvert.DeserializeObject<WorkItem[]>(jsonData);//DeserializeObject
+              //if (items != null)
               //{
-               //    return items.ToDictionary(item => item.Id);
-               // }
+              //    return items.ToDictionary(item => item.Id);
+              // }
             }
             return new Dictionary<Guid, WorkItem>();
         }

@@ -19,7 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{953AFE09-70A4-4C96-B83D-32F3C8B25047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "johnnybbabe.taskplanner.Domain.Logic.Tests1", "johnnybbabe.taskplanner.Domain.Logic.Tests1\johnnybbabe.taskplanner.Domain.Logic.Tests1.csproj", "{0573A7C8-6138-4D51-8F6E-244CE40AD0C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "johnnybbabe.taskplanner.Domain.Logic.Tests1", "johnnybbabe.taskplanner.Domain.Logic.Tests1\johnnybbabe.taskplanner.Domain.Logic.Tests1.csproj", "{0573A7C8-6138-4D51-8F6E-244CE40AD0C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{11170FEB-C1E9-4CAD-B529-43A598E60AC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,7 @@ Global
 		{A11B5EFC-73A3-4FE4-9D23-18BEE76F91C2} = {0ED4F79A-6613-48D2-AAB2-002EE6A9083E}
 		{26EB9F42-63D5-4D53-8EE7-42C565E065B2} = {DD66610E-4248-4D29-9A2A-AEC499FEA917}
 		{9A1A787B-663F-42D2-A91F-614349CA42B8} = {DD66610E-4248-4D29-9A2A-AEC499FEA917}
+		{0573A7C8-6138-4D51-8F6E-244CE40AD0C2} = {11170FEB-C1E9-4CAD-B529-43A598E60AC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {55DE2E8B-55B9-45BA-A67D-250F159BE5C5}
